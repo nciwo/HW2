@@ -6,6 +6,6 @@ easteregg.addEventListener("click", e=> {
     click += 1;
     if(click == 10) {
         console.log("Hi.");
-        click = 0;
+        easteregg.classList.add("wow");
     } 
 });
