@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "BMJUA";
+    src: url("/fonts/BMJUA_ttf.ttf");
+}
+
+p {
+    font-size: 5rem;
+    color: skyblue;
+    font-family: "BMJUA";
+}
+
+p:hover {
+    color:blue;
+    font-style: bold;
+}
+
+strong:hover {
+    color:darkblue;
+}
