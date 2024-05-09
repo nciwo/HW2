@@ -20,14 +20,23 @@ strong:hover {
     color:darkblue;
 }
 
-.wow:hover, .wow:focus { animation-duration: 3s; animation-name: rainbowLink; animation-iteration-count: infinite; }
+.wow { 
+    animation-duration: 3s;
+    animation-name: rainbowLink;
+    animation-iteration-count: infinite;
+}
+
 @keyframes rainbowLink {
-   0% { color: #ff2a2a; }
-   15% { color: #ff7a2a; }
-   30% { color: #ffc52a }
-   45% { color: #43ff2a; }
-   60% { color: #2a89ff; }
-   75% { color: #202082; }
-   90% { color: #6b2aff; }
-   100% { color: #e82aff; }
-  }
+   0% { color: red; }
+   15% { color: orange; }
+   30% { color: yellow }
+   45% { color: yellowgreen; }
+   60% { color: magenta; }
+   75% { color: darkblue; }
+   90% { color: blue; }
+   100% { color: greenyellow; }
+}
+
+body {
+    background-size: contain;
+}
