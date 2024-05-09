@@ -21,7 +21,7 @@ strong:hover {
 }
 
 .wow { 
-    animation-duration: 3s;
+    animation-duration: 1.3s;
     animation-name: rainbowLink;
     animation-iteration-count: infinite;
 }
